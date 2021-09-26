@@ -1,0 +1,25 @@
+public class reverse
+{
+public static void main(string[]args)
+{
+scanner in=new scanner (system.in);
+system.out.println("Enter the size of array");
+int n=in.nexint();
+int[]elt=new.int[n];
+for(int i=0;i<n;i++)
+{
+system.out.println("Enter array element"+(i+1))'
+elt[i]=sc.next int();
+}
+system.out.println("original element are:");
+for(int i=0;i<n;i++)
+{
+system.out.print (elt[i]+"");
+system.out.println("reverse element are:");
+for(int i=n-1;i>=0;i--)
+{
+system.out.print(elt[i]+"");
+}
+}
+}
+}
